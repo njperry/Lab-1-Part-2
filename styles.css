@@ -1,0 +1,133 @@
+body {
+    margin: 20px;
+    padding: 0 15px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc
+
+}
+
+header, nav, main {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+p {
+    margin: 0;
+    color: black;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.title_text {
+    padding: 30px 0 20px 0;
+    font-size: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: #69696a;
+    }
+
+.about_text{
+    border-left: 2px solid black;
+    padding-left: 10px;
+    color: #69696a;
+
+}
+
+.button {
+    background-color: black;
+    padding: 6px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    min-width: 70px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+.circle1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+.circle2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    position: absolute;
+    right: -13px;
+    top: 120px;
+}
+
+.circle3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+
+header, nav{
+flex-direction: row;
+align-items: center;
+
+}
+
+header{
+    justify-content: space-between;
+}
+
+nav a{
+margin-left: 10px;
+
+}
+
+main {
+    flex-direction: row;
+    padding-top: 100px;
+
+}
+
+.about {
+    width: 50%;
+}
+
+.circles {
+    position: relative;
+    width: 50%;
+}
+
+
+footer {
+    width: 130px;
+    padding-top: 18px;
+    margin: auto;
+    
+}
+
+
+}
